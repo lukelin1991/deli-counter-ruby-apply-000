@@ -24,3 +24,8 @@ def now_serving(katz_deli)
     puts "Currently serving #{katz_deli.shift}."
   end
 end
+
+ticket_num = 0
+def take_a_number_2(ticket_num)
+  ticket_num += 1
+end
